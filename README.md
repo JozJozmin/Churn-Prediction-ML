@@ -32,7 +32,7 @@ Since it is a categorical problem I have approached various models. And I got mo
 <li> The top score for this competition is 0.6249118684 <br/>
 	
 	
-<li> link of leader board : https://datahack.analyticsvidhya.com/contest/job-a-thon-march-2022/#LeaderBoard <br/>
+<li> link for leader board of the competition is : https://datahack.analyticsvidhya.com/contest/job-a-thon-march-2022/#LeaderBoard <br/>
 	
 	
 
