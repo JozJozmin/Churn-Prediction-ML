@@ -1,4 +1,4 @@
-# Churn-Prediction-ML
+# Churn-Prediction in ML
 Understanding Problem Statement : Decreasing the Customer Churn is a key goal for any business. Predicting Customer Churn (also known as Customer Attrition)
 represents an additional potential revenue source for any business. Customer Churn impacts the cost to the business. Higher
 Customer Churn leads to loss in revenue and the additional marketing costs involved with replacing those customers with new ones.
