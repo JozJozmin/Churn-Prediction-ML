@@ -29,10 +29,10 @@ Since it is a categorical problem I have approached various models. And I got mo
 <li>In feature selection I used all the attributes which have regression coefficients greater than 0.011 in which I got higher overall accuracy.<br/>
 <li>For hyper parameter tuning by RandomizedSearchCV, I got the best parameter for logistic regression  {'penalty': 'l2', 'max_iter': 400, 'C': 170}<br/>
 <li>The overall accuracy I got from logistic regression model is 58.65%<br/>
-<li> The top score for this competition is 0.6249118684 <br/>
+<br/> The top score for this competition is 0.6249118684 <br/>
 	
 	
-<li> link for leader board of the competition is : https://datahack.analyticsvidhya.com/contest/job-a-thon-march-2022/#LeaderBoard <br/>
+<br/> link for leader board of the competition is : https://datahack.analyticsvidhya.com/contest/job-a-thon-march-2022/#LeaderBoard <br/>
 	
 	
 
