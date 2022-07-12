@@ -27,7 +27,7 @@ Data analysis and interpretation :
 	<li> One hot encoding of categorical variables<br/>
 Since it is a categorical problem I have approached various models. And I got more accuracy in logistic regression. In order to improve the model I done hyper 			parameter tuning and feature selection <br/>
 <li>In feature selection I used all the attributes which have regression coefficients greater than 0.011 in which I got higher overall accuracy.<br/>
-<li>For hyper parameter tuning by RandomizedSearchCV, I got the best parameter for logistic regression  {'penalty': 'l2', 'max_iter': 400, 'C': 170}<br/>
+<li> In hyper parameter tuning by RandomizedSearchCV, I got the best parameter for logistic regression  {'penalty': 'l2', 'max_iter': 400, 'C': 170}<br/>
 <li>The overall accuracy I got from logistic regression model is 58.65%<br/>
 <br/> The top score for this competition is 0.6249118684 <br/>
 	
