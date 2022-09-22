@@ -1,13 +1,26 @@
 # Churn-Prediction in ML
-Understanding Problem Statement : Decreasing the Customer Churn is a key goal for any business. Predicting Customer Churn (also known as Customer Attrition)
+**Understanding Problem Statement** : Decreasing the Customer Churn is a key goal for any business. Predicting Customer Churn (also known as Customer Attrition)
 represents an additional potential revenue source for any business. Customer Churn impacts the cost to the business. Higher
 Customer Churn leads to loss in revenue and the additional marketing costs involved with replacing those customers with new ones.
 In this challenge, as a data scientist of a bank, you are asked to analyze the past data and predict whether the customer will churn or
 not in the next 6 months. This would help the bank to have the right engagement with customers at the right time.
 
-Objective : Our objective is to build a machine learning model to predict whether the customer will churn or not in the next six months
+**Objective** : Our objective is to build a machine learning model to predict whether the customer will churn or not in the next six months <br>
 
-Data analysis and interpretation : 
+**Dataset Informations:** <br>
+		<li> ID  - Unique Identifier of a row <br>
+		<li> Age - Age of the customer <br>
+		<li> Gender - Gender of the customer (Male and Female) <br>
+		<li> Income - Yearly income of the customer <br>
+		<li> Balance - Average quarterly balance of the customer
+		<li> Vintage - No. of years the customer is associated with bank
+		<li> Transaction_Status - Whether the customer has done any transaction in the past 3 months or not
+		<li> Product_Holdings - No. of product holdings with the bank
+		<li> Credit_Card - Whether the customer has a credit card or not
+		<li> Credit_Category - Category of a customer based on the credit score
+		<li> Is_Churn - Whether the customer will churn in next 6 months or not
+
+**Data analysis and interpretation :** 
 <li>The provided data set includes both the train and test data set.
 <li>The train data set consists of 6650 rows and 11 attributes without null values. The column includes age, gender, income, balance, vintage etc. in which 6 are numeric columns including the target column and 5 are object columns. Apart from this one attribute called ID which is specific to a customer and not required for this prediction. 
 <li>The target column contains 1537 ones which indicate a customer is likely to churn and 5113 zeros indicate a customer not likely to churn. This unbalanced    unique count of values in target class indicates this is an unbalanced dataset.
